@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    margin:0;
+    padding:0;
+}
+.container{
+    width:1121px;;
+    margin:0 auto;
+}
+.top-bannar{
+    background-color:  #161616;
+    display:flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.bannar-box{
+    width:50%;
+}
+.bannar-box-info{
+    padding:111px;
+    color:white;
+}
+.tob-bannar-headear{
+    font-size: 70px;
+    line-height: 75px;
+    margin:0;
+}
+.bannar-info{
+    line-height: 26px;
+}
+.link-button button{
+    background-color: #E54040;
+    font-size: 16px;
+    line-height: 26px;
+    color:white;
+    border-radius: 6px;
+    padding:10px;
+}
+.fa-solid{
+    margin-left: 10px;
+}
