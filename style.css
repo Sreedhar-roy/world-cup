@@ -9,16 +9,17 @@ body{
     margin:0 auto;
 }
 .top-bannar{
+    margin-top: 20px;
     background-color:  #161616;
     display:flex;
-    justify-content: center;
+    padding-top:70px ;
     border-radius: 30px;
 }
 .bannar-box{
     width:50%;
 }
-.bannar-box-info{
-    padding:111px;
+.bannar-box{
+    padding: 0px 70px; 
     color:white;
 }
 .tob-bannar-headear{
@@ -40,3 +41,6 @@ body{
 .fa-solid{
     margin-left: 10px;
 }
+ .bannar-box img{
+    width:100%;
+} 
