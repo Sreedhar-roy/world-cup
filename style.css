@@ -78,6 +78,7 @@ Upcoming-&live-Match
 .blog-button {
     background: #ff0000;
   }
+  /*================= first and secend design /============ */
 .live-match{
     width:80%;
 } 
@@ -94,6 +95,7 @@ Upcoming-&live-Match
     border-radius: 8px;
     border:1px solid #3b3b3b18;
 }
+/*================= first and secend design /============ */
 .play-info{
     margin: 15px;
 }
@@ -154,4 +156,29 @@ hr{
 .footer-icon a:hover{
     background-color:white;
     color:black;
+}
+/*=============================== index html page design ende ================================= */
+/* ========================================upcoming design page ============================== */
+
+.image-flag{
+    display:flex;
+    align-items: center;
+    padding:35px 18px 0px 18px;
+}
+.varses{
+    font-size: 20px;
+    font-weight: 800;
+    padding:0px 18px;
+}
+.flag-info{
+    text-align: center;
+    padding-bottom: 35px;
+}
+.flag-info p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.flag-info span{
+    font-size: 14px;
 }
