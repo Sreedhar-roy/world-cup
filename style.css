@@ -36,11 +36,18 @@ body{
     font-size: 16px;
     line-height: 26px;
     color:white;
+    border:1px solid white;
     border-radius: 6px;
     padding:10px;
+    width:150px;
+    cursor:pointer;
 }
 .fa-solid{
     margin-left: 10px;
+    transition:0.5s;
+}
+.link-button button:hover .fa{
+    margin-left: 20px;
 }
  .bannar-box img{
     width:100%;
@@ -52,12 +59,13 @@ Upcoming-&live-Match
     display: flex;
  }
  .Upcoming{
-    background: #020202;
     width:20%;
-    height:245px;
+ }
+ .upcoming-match{
+    background:black;
+    padding:13px 0px;
     border-radius: 15px;
-    padding:10px 0px;
-}
+ }
 .upcoming-button{
     width:185px;
     margin:10px 20px ;
