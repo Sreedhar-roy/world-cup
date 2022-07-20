@@ -55,6 +55,7 @@ body{
 /* -------------------
 Upcoming-&live-Match
 ----------------------- */
+ /*================= first and secend design /============ */
 .Upcoming-live-Match{
     display: flex;
  }
@@ -69,7 +70,7 @@ Upcoming-&live-Match
 .upcoming-button{
     width:185px;
     margin:10px 20px ;
-    padding:20px;
+    padding:15px 20px;
     border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
@@ -78,7 +79,7 @@ Upcoming-&live-Match
 .blog-button {
     background: #ff0000;
   }
-  /*================= first and secend design /============ */
+ 
 .live-match{
     width:80%;
 } 
