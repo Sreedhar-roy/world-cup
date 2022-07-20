@@ -52,10 +52,24 @@ Upcoming-&live-Match
     display: flex;
  }
  .Upcoming{
-    background: red;
+    background: #020202;
     width:20%;
-    padding:20px;
+    height:245px;
+    border-radius: 15px;
+    padding:10px 0px;
 }
+.upcoming-button{
+    width:185px;
+    margin:10px 20px ;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.blog-button {
+    background: #ff0000;
+  }
 .live-match{
     width:80%;
 } 
@@ -93,4 +107,28 @@ Upcoming-&live-Match
     color:#8a8888;
     text-decoration: none;
     font-size: 14px;
+}
+/*------------ --------
+           footer section 
+----------------------------*/
+.footer-section{
+    background-color: black;
+    padding:100px 0px;
+    text-align:center;
+    color:#b4b4b4;
+}
+hr{
+    width:75%;
+    color:rgb(71, 71, 71);
+}
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.footer-nav ul li{
+    margin:20px;
+    font-size: 14px;
+    font-weight: 400;
 }
