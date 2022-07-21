@@ -24,7 +24,7 @@ body{
     color:white;
 }
 .tob-bannar-headear{
-    font-size: 5vw;
+    font-size: 4vw;
     margin:0;
 }
 .bannar-info{
@@ -233,5 +233,8 @@ hr{
     .match-box{
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
+    }
+    .view-button button{
+        display:block;
     }
     }
