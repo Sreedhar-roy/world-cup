@@ -24,12 +24,12 @@ body{
     color:white;
 }
 .tob-bannar-headear{
-    font-size: 70px;
-    line-height: 75px;
+    font-size: 5vw;
     margin:0;
 }
 .bannar-info{
-    line-height: 26px;
+    line-height: 2vw;
+    line-height: 22px;
 }
 .link-button button{
     background-color: #E54040;
@@ -119,6 +119,18 @@ Upcoming-&live-Match
     text-decoration: none;
     font-size: 14px;
 }
+.view-button button{
+    background-color: #E54040;
+    font-size: 16px;
+    line-height: 26px;
+    color:white;
+    border:1px solid white;
+    border-radius: 6px;
+    padding:10px;
+    width:150px;
+    cursor:pointer;
+    display: none;
+}
 /*------------ --------
            footer section 
 ----------------------------*/
@@ -194,10 +206,7 @@ hr{
         align-items: center;
     }
     .upcoming-match{
-
-        margin:0;
-        padding:0;
-        background-color: hsla(0, 38%, 31%, 0.014);
+        background: none;
     }
     .match-box{
         grid-template-columns: repeat(1, 1fr);
@@ -207,4 +216,22 @@ hr{
         color:#9e9e9e;
         margin:0px 3px;
         font-size: 10px;
+    }
+    /*======= Use a media query to add a Mobail device: ====*/
+    @media only screen and (max-width: 992){
+    .container{
+         width:100%;
+    }  
+
+    .Upcoming-live-Match, .live-match {
+        flex-direction: column;
+        align-items: center;
+    }
+    .upcoming-match{
+        background: none;
+    }
+    .match-box{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
     }
